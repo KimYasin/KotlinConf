@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KotlinConference</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="login_title">Login</string>
+    <string name="create_act">Sign up</string>
+    <string name="send_password_reset_email">Send password reset email</string>
+    <string name="loginpassword">Password</string>
+    <string name="loginemail">Email</string>
+    <string name="forgot_password_reset">Forgot Password? Reset</string>
+    <string name="welcome_note">Hello! You are welcome to the Kotlin Conference</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/yellow"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/iv_user_logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kotlin_logo"/>
+
+    <TextView
+            android:id="@+id/tv_hello_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Hello Comrade, You are Welcome to Kotlin Conference 2019" />
+
+
+</LinearLayout>
